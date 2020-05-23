@@ -7,10 +7,6 @@ def contains_only_valid(digits: list) -> bool:
     return False
 
 
-def main():
-    entered = input("Enter a whole number: ")
-    digits = [int(i) for i in entered]
-    print(contains_only_valid(digits) and len(digits) % 2 == 0)
-
-if __name__ == '__main__':
-    main()
+entered = input("Enter a whole number: ")
+digits = [int(i) for i in entered]
+print(contains_only_valid(digits) and len(digits) % 2 == 0)
